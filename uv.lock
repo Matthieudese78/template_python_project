@@ -1272,7 +1272,6 @@ source = { editable = "." }
 dependencies = [
     { name = "ipykernel" },
     { name = "pandas" },
-    { name = "pytest" },
 ]
 
 [package.dev-dependencies]
@@ -1281,6 +1280,7 @@ dev = [
     { name = "jupyter" },
     { name = "jupytext" },
     { name = "pre-commit" },
+    { name = "pytest" },
 ]
 docs = [
     { name = "mkdocs" },
@@ -1303,7 +1303,6 @@ test = [
 requires-dist = [
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "pandas", specifier = ">=2.3.0" },
-    { name = "pytest", specifier = ">=8.4.1" },
 ]
 
 [package.metadata.requires-dev]
@@ -1312,6 +1311,7 @@ dev = [
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "jupytext", specifier = ">=1.16.7" },
     { name = "pre-commit", specifier = ">=4.0.1" },
+    { name = "pytest", specifier = ">=8.4.1" },
 ]
 docs = [
     { name = "mkdocs", specifier = ">=1.6.1" },
